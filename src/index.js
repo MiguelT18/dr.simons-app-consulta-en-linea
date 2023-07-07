@@ -3,12 +3,30 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Consulta } from './pages/Consulta';
+import { Newsletter } from './pages/Newsletter';
+
+const router = createBrowserRouter([
+	{
+		path: '/',
+		element: <App />,
+	},
+	{
+		path: '/consulta_online',
+		element: <Consulta />,
+	},
+	{
+		path: '/newsletter',
+		element: <Newsletter />,
+	},
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+	<React.StrictMode>
+		<RouterProvider router={router} />
+	</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

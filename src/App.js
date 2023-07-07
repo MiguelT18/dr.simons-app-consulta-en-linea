@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Link } from 'react-router-dom';
+import { DarkButton } from './components/DarkButton/DarkButton';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<h1 className='font-bold'>Routes</h1>
+			<Link
+				className='text-purple-500'
+				to='/consulta_online'>
+				Consulta en Línea
+			</Link>
+			<br />
+			<Link
+				className='text-purple-500'
+				to='/newsletter'>
+				Newsletter
+			</Link>
+
+			<DarkButton />
+		</div>
+	);
 }
 
 export default App;
