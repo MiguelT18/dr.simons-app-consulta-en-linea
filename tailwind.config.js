@@ -17,9 +17,13 @@ module.exports = {
 			},
 			fontSize: {
 				sm: 'clamp(0.75rem, 4.2vw, 1rem)',
-				md: 'clamp(1.1rem, 6vw, 1.4rem)',
-				lg: 'clamp(1.4rem, 7.5vw, 1.8rem)',
+				md: 'clamp(1rem, 6vw, 1.3rem)',
+				lg: 'clamp(1.2rem, 7.5vw, 1.6rem)',
 				xl: 'clamp(1.6rem, 9vw, 2.2rem)',
+			},
+			width: {
+				'header-img': 'clamp(80px, 23vw, 100px)',
+				'header-drname': 'clamp(180px, 52vw, 250px)',
 			},
 		},
 	},
