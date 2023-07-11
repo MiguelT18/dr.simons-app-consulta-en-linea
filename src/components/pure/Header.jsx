@@ -18,7 +18,7 @@ export default function Header() {
 				/>
 			</div>
 			<span className='block relative h-[2px] w-[80%] max-w-[390px] mx-auto my-4 bg-white after:block after:w-[7px] after:h-[7px] after:bg-white after:rotate-45 after:absolute after:-top-[3px] before:block before:w-[7px] before:h-[7px] before:bg-white before:rotate-45 before:absolute before:-top-[3px] before:right-0'></span>
-			<p className='max-w-[770px] mx-auto text-sm text-center font-montserrat leading-5'>
+			<p className='max-w-[770px] mx-auto text-sm text-center font-montserrat leading-6'>
 				¡Hola! Soy el Dr. Cristian Simons, especialista en rinoplastía
 				ultrasónica y rinología. Mi misión es ayudarte a tener la nariz
 				de tus sueños y a respirar mejor.
