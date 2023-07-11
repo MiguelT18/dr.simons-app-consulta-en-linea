@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { Consulta } from './pages/Consulta';
-import { Newsletter } from './pages/Newsletter';
+import { Consulta } from './pages/Consulta/Consulta';
+import { Newsletter } from './pages/Newsletter/Newsletter';
 
 const router = createBrowserRouter([
 	{

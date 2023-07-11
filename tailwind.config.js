@@ -25,6 +25,20 @@ module.exports = {
 				'header-img': 'clamp(80px, 23vw, 100px)',
 				'header-drname': 'clamp(180px, 52vw, 250px)',
 			},
+			backgroundImage: () => ({
+				'gradient-linear-light':
+					'linear-gradient(180deg, #479EF9 0%, #0779F1 100%)',
+				'gradient-linear-dark':
+					'linear-gradient(180deg, #003369 0%, #004B99 100%)',
+				'gradient-linear-newsletter':
+					'linear-gradient(to bottom, #a80606, #6b0000)',
+				'gradient-linear-tiktok':
+					'linear-gradient(to bottom left, #00f7ef, #000000, #050002, #ff004f)',
+				'gradient-linear-instagram':
+					'linear-gradient(to bottom, #711cbe, #c42b66, #e19449)',
+				'gradient-linear-facebook':
+					'linear-gradient(to bottom, #00affe, #006bf0)',
+			}),
 		},
 	},
 	plugins: [],
