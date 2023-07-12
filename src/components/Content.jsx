@@ -9,7 +9,7 @@ import FacebookImg from '../assets/images/facebook-cristian-card.webp';
 
 export default function Content() {
 	return (
-		<main className='overflow-x-hidden mx-4'>
+		<main className='bg-[#E9E9E9] dark:bg-dark overflow-x-hidden px-4 pb-10'>
 			<h1 className='text-blue-light dark:text-white text-lg text-center font-sans font-bold mt-6 mb-2 uppercase'>
 				¡Conéctate con el Dr.Cristian Simons!
 			</h1>

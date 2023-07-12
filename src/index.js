@@ -3,9 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import {
+	createBrowserRouter,
+	RouterProvider,
+	Routes,
+	Route,
+} from 'react-router-dom';
+
+// Consulta en Línea
 import { Consulta } from './pages/Consulta/Consulta';
+import Paso1 from './pages/Consulta/routes/Paso1';
+import Paso2 from './pages/Consulta/routes/Paso2';
+import Paso3 from './pages/Consulta/routes/Paso3';
+import Paso4 from './pages/Consulta/routes/Paso4';
+import Paso5 from './pages/Consulta/routes/Paso5';
+
+// Newsletter
 import { Newsletter } from './pages/Newsletter/Newsletter';
+import LandingPage from './pages/Consulta/routes/LandingPage';
 
 const router = createBrowserRouter([
 	{
@@ -13,8 +28,39 @@ const router = createBrowserRouter([
 		element: <App />,
 	},
 	{
-		path: '/consulta_online',
-		element: <Consulta />,
+		path: '/consulta_online/*',
+		element: (
+			<Routes>
+				<Route
+					path='/'
+					element={<LandingPage />}
+				/>
+				<Route
+					path='/consideraciones'
+					element={<Consulta />}
+				/>
+				<Route
+					path='/paso1'
+					element={<Paso1 />}
+				/>
+				<Route
+					path='/paso2'
+					element={<Paso2 />}
+				/>
+				<Route
+					path='/paso3'
+					element={<Paso3 />}
+				/>
+				<Route
+					path='/paso4'
+					element={<Paso4 />}
+				/>
+				<Route
+					path='/paso5'
+					element={<Paso5 />}
+				/>
+			</Routes>
+		),
 	},
 	{
 		path: '/newsletter',

@@ -24,6 +24,8 @@ module.exports = {
 			width: {
 				'header-img': 'clamp(80px, 23vw, 100px)',
 				'header-drname': 'clamp(180px, 52vw, 250px)',
+				'considerations-img': 'clamp(75px, 20vw, 100px)',
+				'warning-img': 'clamp(60px, 15vw, 75px)',
 			},
 			backgroundImage: () => ({
 				'gradient-linear-light':

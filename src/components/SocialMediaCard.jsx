@@ -1,20 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function SocialMediaCard({
-	title,
-	description,
-	img,
-	classes,
-	titleClass,
-	textClass,
-	imgClass,
-	LinkClass,
-	Linkref,
-}) {
+export default function SocialMediaCard(props) {
+	const {
+		title = 'Undefined',
+		description = 'Undefined',
+		img,
+		classes,
+		titleClass,
+		textClass,
+		imgClass,
+		LinkClass,
+		Linkref,
+	} = props;
+
 	return (
 		<div
-			className={`${classes} text-white w-full max-w-[400px] h-full relative flex rounded-md px-3 py-3`}>
+			className={`${classes} text-white w-full max-w-[400px] h-full relative flex rounded-md sm:rounded-xl px-3 py-3`}>
 			<Link
 				to={Linkref}
 				className={`w-full flex ${LinkClass}`}>

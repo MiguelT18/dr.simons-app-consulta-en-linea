@@ -1,14 +1,12 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
+import PrevButton from '../../components/PrevNavButton';
+import { DarkButton } from '../../components/DarkButton';
 
 export function Newsletter() {
 	return (
 		<div>
-			<h1>Newsletter</h1>
-			<Link
-				className='text-purple-500'
-				to='..'>
-				Home Page
-			</Link>
+			<PrevButton prev='/' />
+			<DarkButton />
 		</div>
 	);
 }
