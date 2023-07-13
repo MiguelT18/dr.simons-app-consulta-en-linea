@@ -6,7 +6,7 @@ import StepCounter from '../components/StepCounter';
 export default function Paso1() {
 	return (
 		<div className='bg-gradient-linear-light dark:bg-gradient-linear-dark h-screen'>
-			<PrevButton prev='/consulta_online' />
+			<PrevButton prev='/consulta_online/consideraciones' />
 			<StepCounter />
 			<DarkButton />
 		</div>

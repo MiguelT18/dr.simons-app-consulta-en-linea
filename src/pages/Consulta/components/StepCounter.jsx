@@ -1,5 +1,5 @@
 import React from 'react';
-import Steps from './pure/Steps';
+import Steps from './Steps';
 
 export default function StepCounter() {
 	return (

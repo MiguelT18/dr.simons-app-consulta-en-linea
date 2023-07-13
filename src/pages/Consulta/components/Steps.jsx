@@ -3,20 +3,20 @@ import { Link, useLocation } from 'react-router-dom';
 
 export default function Steps() {
 	const linkStyles =
-		'bg-white text-dark w-10 h-10 max-[360px]:w-8 max-[360px]:h-8 flex items-center justify-center rounded-full';
+		'w-12 h-12 max-[440px]:w-10 max-[440px]:h-10 max-[380px]:w-8 max-[380px]:h-8 flex items-center justify-center rounded-full';
 	const activeLinkStyles = 'bg-[#FFA800] text-white';
 
 	const location = useLocation();
 
 	return (
 		<div>
-			<ul className='text-lg font-semibold text-center flex justify-around'>
+			<ul className='text-lg font-semibold text-center flex justify-evenly'>
 				<Link
 					to='/consulta_online/paso1'
 					className={`${linkStyles} ${
 						location.pathname === '/consulta_online/paso1'
 							? activeLinkStyles
-							: ''
+							: 'bg-white text-dark'
 					}`}>
 					1
 				</Link>
@@ -25,7 +25,7 @@ export default function Steps() {
 					className={`${linkStyles} ${
 						location.pathname === '/consulta_online/paso2'
 							? activeLinkStyles
-							: ''
+							: 'bg-white text-dark'
 					}`}>
 					2
 				</Link>
@@ -34,7 +34,7 @@ export default function Steps() {
 					className={`${linkStyles} ${
 						location.pathname === '/consulta_online/paso3'
 							? activeLinkStyles
-							: ''
+							: 'bg-white text-dark'
 					}`}>
 					3
 				</Link>
@@ -43,7 +43,7 @@ export default function Steps() {
 					className={`${linkStyles} ${
 						location.pathname === '/consulta_online/paso4'
 							? activeLinkStyles
-							: ''
+							: 'bg-white text-dark'
 					}`}>
 					4
 				</Link>
@@ -52,7 +52,7 @@ export default function Steps() {
 					className={`${linkStyles} ${
 						location.pathname === '/consulta_online/paso5'
 							? activeLinkStyles
-							: ''
+							: 'bg-white text-dark'
 					}`}>
 					5
 				</Link>

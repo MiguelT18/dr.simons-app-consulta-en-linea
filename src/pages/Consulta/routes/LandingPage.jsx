@@ -1,13 +1,18 @@
 import React from 'react';
 import PrevNavButton from '../../../components/PrevNavButton';
 import { DarkButton } from '../../../components/DarkButton';
+import LandingHeader from '../components/LandingPage/LandingHeader';
+import LandingHero from '../components/LandingPage/LandingHero';
 
 export default function LandingPage() {
 	return (
-		<div>
+		<>
 			<PrevNavButton prev='/' />
-			<h1 className='text-lg'>Holaa</h1>
+			<LandingHeader />
+			<main>
+				<LandingHero></LandingHero>
+			</main>
 			<DarkButton />
-		</div>
+		</>
 	);
 }

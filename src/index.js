@@ -11,7 +11,7 @@ import {
 } from 'react-router-dom';
 
 // Consulta en Línea
-import { Consulta } from './pages/Consulta/Consulta';
+import { ConsiderationsPage } from './pages/Consulta/components/Consideraciones/ConsiderationsPage';
 import Paso1 from './pages/Consulta/routes/Paso1';
 import Paso2 from './pages/Consulta/routes/Paso2';
 import Paso3 from './pages/Consulta/routes/Paso3';
@@ -24,10 +24,12 @@ import LandingPage from './pages/Consulta/routes/LandingPage';
 
 const router = createBrowserRouter([
 	{
+		// Home Page
 		path: '/',
 		element: <App />,
 	},
 	{
+		// Consulta en Línea
 		path: '/consulta_online/*',
 		element: (
 			<Routes>
@@ -37,7 +39,7 @@ const router = createBrowserRouter([
 				/>
 				<Route
 					path='/consideraciones'
-					element={<Consulta />}
+					element={<ConsiderationsPage />}
 				/>
 				<Route
 					path='/paso1'
@@ -63,6 +65,7 @@ const router = createBrowserRouter([
 		),
 	},
 	{
+		// Newsletter
 		path: '/newsletter',
 		element: <Newsletter />,
 	},

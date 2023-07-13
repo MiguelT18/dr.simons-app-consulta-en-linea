@@ -40,6 +40,10 @@ module.exports = {
 					'linear-gradient(to bottom, #711cbe, #c42b66, #e19449)',
 				'gradient-linear-facebook':
 					'linear-gradient(to bottom, #00affe, #006bf0)',
+				'hero-mob-pattern':
+					'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/consulta-en-linea/mobile-background.webp")',
+				'hero-desk-pattern':
+					'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/consulta-en-linea/desktop-background.webp")',
 			}),
 		},
 	},
