@@ -1,11 +1,11 @@
-import { DarkButton } from '../../../../components/DarkButton';
-import PrevNavButton from '../../../../components/PrevNavButton';
-import Considerations from '../components/Consideraciones/pure/ConsiderationCardContainer';
-import ConsiderationCard from '../components/Consideraciones/pure/ConsiderationCard';
-import WarningIcon from '../../../../assets/icons/Warning.png';
-import Footer from '../../../../components/pure/Footer';
-import NextNavButton from '../../../../components/NextNavButton';
-import Price from '../Price';
+import { DarkButton } from '../../../components/pure/DarkButton';
+import PrevNavButton from '../../../components/pure/PrevNavButton';
+import ConsiderationCardContainer from '../../../components/ConsultaEnLinea/Considerations/ConsiderationCardContainer';
+import ConsiderationCard from '../../../components/ConsultaEnLinea/Considerations/ConsiderationCard';
+import WarningIcon from '../../../assets/icons/considerations/Warning.png';
+import Footer from '../../../components/shared/Footer';
+import NextNavButton from '../../../components/pure/NextNavButton';
+import Price from '../../../components/ConsultaEnLinea/Considerations/Price';
 
 const ConsiderationsPage = () => {
 	return (
@@ -25,7 +25,7 @@ const ConsiderationsPage = () => {
 					Cristian Simons especialista en cirugía de rinoplastia
 					ultrasónica.
 				</p>
-				<Considerations />
+				<ConsiderationCardContainer />
 				<div className='mx-4 mb-6'>
 					<ConsiderationCard
 						title='Advertencia'

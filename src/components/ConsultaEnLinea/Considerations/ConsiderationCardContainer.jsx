@@ -1,9 +1,9 @@
 import React from 'react';
 import ConsiderationCard from './ConsiderationCard';
 // Icons
-import DoubtsIcon from '../../../../assets/icons/Doubts.png';
-import Gmail from '../../../../assets/icons/Gmail.png';
-import Internet from '../../../../assets/icons/Internet.png';
+import DoubtsIcon from '../../../assets/icons/considerations/Doubts.png';
+import Gmail from '../../../assets/icons/considerations/Gmail.png';
+import Internet from '../../../assets/icons/considerations/Internet.png';
 
 export default function Considerations() {
 	const drEmailAddress = 'contacto@drsimonscristian.com';

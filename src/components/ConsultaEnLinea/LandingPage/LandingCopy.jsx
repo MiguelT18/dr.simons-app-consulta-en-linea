@@ -1,6 +1,6 @@
 import React from 'react';
 import LandingTxtLists from './LandingTxtLists';
-import NextNavButton from '../../../../../components/NextNavButton';
+import NextNavButton from '../../../components/pure/NextNavButton';
 
 export default function LandingCopy() {
 	const emojiAboveCopy = '🔴';
@@ -44,8 +44,8 @@ export default function LandingCopy() {
 	];
 
 	return (
-		<section className='bg-[#E9E9E9] dark:bg-dark pb-8'>
-			<h1 className='text-center text-lg text-blue-light uppercase font-bold dark:text-white py-4'>
+		<section className='bg-[#E9E9E9] text-dark dark:text-white dark:bg-dark pb-6'>
+			<h1 className='text-center text-lg uppercase font-bold py-4'>
 				Esta consulta es para ti si...
 			</h1>
 			<div className='bg-white dark:bg-slate-800 w-[90%] max-w-[1080px] mx-auto mb-8 px-3 pb-1 pt-4'>

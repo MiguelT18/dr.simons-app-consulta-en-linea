@@ -1,7 +1,7 @@
-import { DarkButton } from './components/DarkButton';
-import Header from './components/pure/Header';
-import Content from './components/Content';
-import Footer from './components/pure/Footer';
+import { DarkButton } from './components/pure/DarkButton';
+import Header from './components/HomePage/Header';
+import Content from './components/HomePage/Content';
+import Footer from './components/shared/Footer';
 
 function App() {
 	return (

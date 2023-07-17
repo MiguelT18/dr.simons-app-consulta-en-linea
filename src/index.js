@@ -13,13 +13,13 @@ import {
 } from 'react-router-dom';
 
 // Consulta en Línea
-import { LandingPage } from './pages/Consulta/routes/LandingPage';
-import ConsiderationsPage from './pages/Consulta/components/Consideraciones/ConsiderationsPage';
-import Paso1 from './pages/Consulta/routes/Paso1';
-import Paso5 from './pages/Consulta/routes/Paso5';
-import Paso4 from './pages/Consulta/routes/Paso4';
-import Paso3 from './pages/Consulta/routes/Paso3';
-import Paso2 from './pages/Consulta/routes/Paso2';
+import { LandingPage } from './pages/ConsultaEnLinea/routes/LandingPage';
+import Considerations from './pages/ConsultaEnLinea/routes/Considerations';
+import Paso1 from './pages/ConsultaEnLinea/routes/Paso1';
+import Paso5 from './pages/ConsultaEnLinea/routes/Paso5';
+import Paso4 from './pages/ConsultaEnLinea/routes/Paso4';
+import Paso3 from './pages/ConsultaEnLinea/routes/Paso3';
+import Paso2 from './pages/ConsultaEnLinea/routes/Paso2';
 
 // Newsletter
 import { Newsletter } from './pages/Newsletter/Newsletter';
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
 				/>
 				<Route
 					path='consideraciones'
-					element={<ConsiderationsPage />}
+					element={<Considerations />}
 				/>
 				<Route
 					path='paso1'

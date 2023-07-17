@@ -1,6 +1,6 @@
 import React from 'react';
 import LandingTxtLists from './LandingTxtLists';
-import NextNavButton from '../../../../components/NextNavButton';
+import NextNavButton from '../../pure/NextNavButton';
 
 export default function LandingHero() {
 	const oportunitiesEmoji = '✅';
@@ -28,12 +28,12 @@ export default function LandingHero() {
 	];
 
 	return (
-		<section className='bg-hero-mob-pattern bg-center bg-no-repeat bg-cover min-[1024px]:bg-hero-desk-pattern'>
-			<h2 className='mx-auto max-w-[1500px] text-white text-lg text-center uppercase font-semibold pt-4 px-4'>
+		<section className='h-full lg:h-screen bg-hero-mob-pattern bg-center bg-no-repeat bg-cover min-[1024px]:bg-hero-desk-pattern'>
+			<h2 className='mx-auto max-w-[1500px] text-white text-lg text-center uppercase font-semibold pt-4 px-4 lg:mb-10'>
 				Descubre cómo una rinoplastia personalizada con el Dr. Simons
 				puede ayudarte a alcanzar tus metas estéticas y funcionales
 			</h2>
-			<div className='max-w-[1500px] grid justify-items-center mx-auto items-center lg:grid-cols-2 gap-5 pb-10 px-5'>
+			<div className='max-w-[1500px] grid justify-center mx-auto items-center lg:grid-cols-2 gap-5 pb-10 px-5'>
 				<div className='w-full'>
 					<h1 className='text-white max-[1023px]:text-center text-lg font-semibold py-4'>
 						Durante tu Consulta tendrás la oportunidad de:

@@ -1,9 +1,9 @@
 import React from 'react';
-import PriceCard from './PriceCard';
+import PriceCard from '../../pure/PriceCard';
 
 export default function Price() {
 	return (
-		<div className='flex flex-wrap justify-center gap-10 mx-4'>
+		<div className='flex flex-wrap justify-center gap-5 lg:gap-10 mx-4'>
 			<PriceCard
 				title='Método Internacional'
 				price='$39.99 / 270 Bs'

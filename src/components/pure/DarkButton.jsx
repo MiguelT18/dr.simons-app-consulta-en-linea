@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useMemo } from 'react';
 // Light Images
-import RoundLightButton from '../assets/images/darkbutton/round-light-button.png';
-import SwitchLightElements from '../assets/images/darkbutton/switch-light-elements.png';
+import RoundLightButton from '../../assets/images/darkbutton/round-light-button.png';
+import SwitchLightElements from '../../assets/images/darkbutton/switch-light-elements.png';
 // Dark Images
-import RoundDarkButton from '../assets/images/darkbutton/round-dark-button.png';
-import SwitchDarkElements from '../assets/images/darkbutton/switch-dark-elements.png';
+import RoundDarkButton from '../../assets/images/darkbutton/round-dark-button.png';
+import SwitchDarkElements from '../../assets/images/darkbutton/switch-dark-elements.png';
 
 export const DarkButton = () => {
 	// Definiendo el valor actual del estado inicial por localStorage

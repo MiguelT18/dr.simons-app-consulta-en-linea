@@ -1,7 +1,7 @@
 import React from 'react';
-import PrevButton from '../../../components/PrevNavButton';
-import { DarkButton } from '../../../components/DarkButton';
-import StepCounter from '../components/StepCounter';
+import PrevButton from '../../../components/pure/PrevNavButton';
+import { DarkButton } from '../../../components/pure/DarkButton';
+import StepCounter from '../../../components/pure/StepCounter';
 
 export default function Paso1() {
 	return (
