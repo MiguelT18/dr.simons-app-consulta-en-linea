@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4efce4d.css",
+    "main.js": "/static/js/main.b4b365e5.js",
+    "static/js/787.f49bf057.chunk.js": "/static/js/787.f49bf057.chunk.js",
+    "static/media/desktop-background.webp": "/static/media/desktop-background.1f67f1d2bcb1cdae35c6.webp",
+    "static/media/mobile-background.webp": "/static/media/mobile-background.92963e13bfb316f6b9da.webp",
+    "static/media/header-image.webp": "/static/media/header-image.7a9e88d72adec2dd0212.webp",
+    "static/media/instagram-cristian-card.webp": "/static/media/instagram-cristian-card.f0c54ca65561ebeea00b.webp",
+    "static/media/consulta-en-linea-card.webp": "/static/media/consulta-en-linea-card.4269c3a97bbcdec2c539.webp",
+    "static/media/doctor-name.png": "/static/media/doctor-name.e370ef43afe3c8b9cc3d.png",
+    "static/media/facebook-cristian-card.webp": "/static/media/facebook-cristian-card.532eeb65c6cc9bf4b4c0.webp",
+    "static/media/tiktok-cristian-card.webp": "/static/media/tiktok-cristian-card.704eb520aad5c8df394b.webp",
+    "static/media/newsletter-cristian.webp": "/static/media/newsletter-cristian.7785baa31763163ca5ea.webp",
+    "index.html": "/index.html",
+    "main.c4efce4d.css.map": "/static/css/main.c4efce4d.css.map",
+    "main.b4b365e5.js.map": "/static/js/main.b4b365e5.js.map",
+    "787.f49bf057.chunk.js.map": "/static/js/787.f49bf057.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4efce4d.css",
+    "static/js/main.b4b365e5.js"
+  ]
+}

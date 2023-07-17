@@ -55,7 +55,7 @@ export const DarkButton = () => {
 
 	return (
 		<div
-			className='fixed bottom-0 right-0 mb-4 mr-4'
+			className='fixed bottom-0 right-0 mb-4 mr-4 z-40'
 			onClick={handleThemeSwitch}>
 			<img
 				className={`${SwitchRoundClasses}`}

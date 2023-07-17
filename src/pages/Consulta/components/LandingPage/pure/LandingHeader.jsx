@@ -16,7 +16,7 @@ export default function ConsultaLanHeader() {
 	}, []);
 
 	return (
-		<header className='text-center bg-blue-light dark:bg-blue-dark text-white p-3'>
+		<header className='text-center bg-blue-light dark:bg-blue-dark text-white p-3 pt-3'>
 			<h1 className='text-md uppercase mb-1'>
 				Regístrate en la consulta en línea con el Dr. Simons
 			</h1>

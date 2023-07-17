@@ -2,17 +2,17 @@ import React from 'react';
 
 export default function ConsiderationCard(props) {
 	const {
+		customClass,
+		customImgClass,
+		customTextClass,
 		title,
 		text,
-		customTextClass,
 		img,
-		customImgClass,
 		alt,
-		customClass,
 	} = props;
 
 	return (
-		<div className={`${customClass} max-w-[480px] mx-auto`}>
+		<div className={`${customClass} relative max-w-[480px] mx-auto`}>
 			<img
 				className={`mx-auto ${customImgClass}`}
 				src={img}

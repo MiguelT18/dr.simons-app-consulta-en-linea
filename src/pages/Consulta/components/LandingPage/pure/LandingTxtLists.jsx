@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default function LandingTxtLists({ items }) {
+export default function LandingTxtLists({ items, customListClass }) {
 	return (
-		<ul className='list-none max-w-[1080px] mx-auto px-4'>
+		<ul className='list-none'>
 			{items.map((item, index) => (
 				<li
 					key={index}
-					className='text-sm text-white pb-4'>
+					className={`text-sm pb-4 ${customListClass}`}>
 					{item.emoji} {item.text}
 				</li>
 			))}

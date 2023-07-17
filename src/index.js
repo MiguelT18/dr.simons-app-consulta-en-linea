@@ -3,33 +3,33 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// Enrutamiento
 import {
 	createBrowserRouter,
+	Route,
 	RouterProvider,
 	Routes,
-	Route,
 } from 'react-router-dom';
 
 // Consulta en Línea
-import { ConsiderationsPage } from './pages/Consulta/components/Consideraciones/ConsiderationsPage';
+import { LandingPage } from './pages/Consulta/routes/LandingPage';
+import ConsiderationsPage from './pages/Consulta/components/Consideraciones/ConsiderationsPage';
 import Paso1 from './pages/Consulta/routes/Paso1';
-import Paso2 from './pages/Consulta/routes/Paso2';
-import Paso3 from './pages/Consulta/routes/Paso3';
-import Paso4 from './pages/Consulta/routes/Paso4';
 import Paso5 from './pages/Consulta/routes/Paso5';
+import Paso4 from './pages/Consulta/routes/Paso4';
+import Paso3 from './pages/Consulta/routes/Paso3';
+import Paso2 from './pages/Consulta/routes/Paso2';
 
 // Newsletter
 import { Newsletter } from './pages/Newsletter/Newsletter';
-import LandingPage from './pages/Consulta/routes/LandingPage';
 
 const router = createBrowserRouter([
 	{
-		// Home Page
 		path: '/',
 		element: <App />,
 	},
 	{
-		// Consulta en Línea
 		path: '/consulta_online/*',
 		element: (
 			<Routes>
@@ -38,34 +38,33 @@ const router = createBrowserRouter([
 					element={<LandingPage />}
 				/>
 				<Route
-					path='/consideraciones'
+					path='consideraciones'
 					element={<ConsiderationsPage />}
 				/>
 				<Route
-					path='/paso1'
+					path='paso1'
 					element={<Paso1 />}
 				/>
 				<Route
-					path='/paso2'
+					path='paso2'
 					element={<Paso2 />}
 				/>
 				<Route
-					path='/paso3'
+					path='paso3'
 					element={<Paso3 />}
 				/>
 				<Route
-					path='/paso4'
+					path='paso4'
 					element={<Paso4 />}
 				/>
 				<Route
-					path='/paso5'
+					path='paso5'
 					element={<Paso5 />}
 				/>
 			</Routes>
 		),
 	},
 	{
-		// Newsletter
 		path: '/newsletter',
 		element: <Newsletter />,
 	},
